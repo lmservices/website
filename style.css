@@ -1,4 +1,8 @@
-.navbar { background-color: #00b7c2}
+/* LM WEBSITE */
+.navbar {  background-color: #519872;
+height: 4.5rem;
+font-size: 2.5rem;
+ padding: 0 0 4.5rem; }
 
 .font1 {
 font-family: "Montserrat - Black";
@@ -10,4 +14,46 @@ line-height: 1.5;
 #container-fluid {
 padding: 3% 12%;
 
+}
+
+#title {
+
+  background-color: #cff6cf;
+background-size: small;
+}
+
+
+.download-btn {
+
+
+  margin: 5% 2% 1% 0;
+}
+
+
+.word {
+  color: purple;
+  font-family: bold;
+}
+
+.navbar-brand {
+
+  font-family: ubuntu;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+
+  padding: 0 16px;
+}
+
+
+.nav-link /* navbar items */ {
+
+font-size: 1.3rem;
+
+}
+
+.image1 {
+padding: 5% 0 0 5%;
 }
