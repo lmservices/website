@@ -57,3 +57,41 @@ font-size: 1.3rem;
 .image1 {
 padding: 5% 0 0 5%;
 }
+
+
+#features {
+  text-align: center;
+padding: 5% 15%;
+
+}
+
+
+/* Testimonials section */
+
+#testimonials{
+
+background-color: #fbe2e5;
+
+}
+
+.western {
+
+width: 200px;
+padding-bottom: 70px;
+padding-top: 40px;
+}
+
+
+
+
+.header {
+text-align: center;
+}
+
+
+.auto-image {
+
+  width: 200px;
+padding-bottom: 70px;
+padding-top: 40px;
+}
