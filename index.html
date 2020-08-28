@@ -34,24 +34,24 @@
 
     <div id ="container-fluid">
 
-    <nav class="navbar navbar-expand-lg navbar-dark background-color: blue">
+    <nav class="navbar navbar-expand-lg navbar-dark background-color: Yellow">
 
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
 
       <div class="collapse navbar-collapse" id="navbarNav">
-        <a class="navbar-brand" href="index.html"> L&M Services </a>
+        <a class="brand navbar-brand" href="index.html"> L&M Services </a>
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a class="nav-link" href="contact.html"> Contact </a>
+            <a class="nav nav-link" href="contact.html"> Contact </a>
           </li>
 
-          <li class="nav-item">
+          <li class="nav nav-item">
             <a class="nav-link" href="aboutus.html"> About us </a>
           </li>
 
-          <li class="nav-item">
+          <li class="nav nav-item">
             <a class="nav-link" href="pricing.html"> Pricing </a>
           </li>
 
@@ -97,6 +97,9 @@
 <p class = "word" > Saturday - 8:00am - 6:00pm <i class="far fa-arrow-alt-circle-up"></i></p>
 <p class = "word" > Sunday - 8:00am - 6:00pm <i class="far fa-arrow-alt-circle-up"></i> </p>
 
+<br>
+<br>
+<img class = "image1" src="images/buildbusiness.png" alt="web" height="300" width="320">
 
       </div>
 
@@ -104,6 +107,11 @@
       <div class="col-lg-6">
 
 <img class = "image1" src="images/frontpage.jpg" alt="web" height="520" width="497">
+
+
+
+<img class = "image1" src="images/frontpage2.jpeg" alt="web2" height="520" width="497">
+
 
       </div>
     </div>
@@ -121,24 +129,23 @@
 <div class = "row">
 
 <div class = "col-lg-4">
-
+<i class="icon fas fa-utensils fa-4x"></i> <!-- adding a icon at the top of the text -->
     <h3 class = "letter-size"> Meet your own Restaurant </h3>
     <p>Our spaces are adequate to cook up local and personal food cuisines </p>
-
     <img class = "restaurant" src ="images/restaurant.jpg" alt = "restaurant" height = "150" width "150" >
 
 </div>
 
 <div class = "col-lg-4">
+<i class="icon fas fa-wifi fa-4x"></i>
     <h3 class = "letter-size"> Meet your own Internet Cafe </h3>
     <p>Help students get an A+ on their next grade </p>
-
-
         <img class = "computerlab" src ="images/computerlab.jpg" alt = "computerlab" height = "150" width "150" >
 
 </div>
 
 <div class = "col-lg-4">
+  <i class="icon fas fa-birthday-cake fa-4x"></i>
     <h3 class = "letter-size"> Satisfy customers with your bakery shop </h3>
     <p> People enjoy their food as they enjoy their favorite baked goods. </p>
 
@@ -153,38 +160,46 @@
 
   <section id="testimonials">
 
-<h2 class ="header"> Our Testimonials </h2>
+<h2 class ="header1"> Our Testimonials </h2>
 <br>
-    <h2 class ="header">"We at the Western Glass shop have served numerous clients and all of them have been satisfied
-      with our service for windows and interior styling."</h2>
-    <img class = "western" src="images/windows.jpg" alt="window">
-<img class = "western" src="images/window2.jpg" alt="windows2">
 
+<div id="carouselExampleControls" class="carousel slide" data-ride="carousel" data-interval: "5000" data-pause ="hover">
+  <div class="carousel-inner">
+    <div class="carousel-item active" style = "background-color: #fabea7">
 
-    <em> Western GlassShop</em>
+      <h2 class ="headerglass">"We at the Western Glass shop have served numerous clients and all of them have been satisfied
+        with our service for windows and interior styling."</h2>
+      <img class = "western" src="images/windows.jpg" alt="window">
+  <img class = "western" src="images/window2.jpg" alt="windows2">
+  <em> Western GlassShop </em>
 
-    <!-- <h2 class="testimonial-text">My dog used to be so lonely, but with TinDog's help, they've found the love of their life. I think.</h2>
-    <img class="testimonial-image" src="images/lady-img.jpg" alt="lady-profile">
-    <em>Beverly, Illinois</em> -->
+    </div>
+    <div class="carousel-item" style = "background-color: #ebecf1"> <!-- background color of slide -->
 
+              <h2 class ="headerauto"> "We keep our clients satisfied with our technician work at Border-Auto Parts." </h2>
+              <img class = "auto-image" src="images/autoparts.jpg" alt="window">
+          <img class = "auto-image" src="images/autoparts2.jpg" alt="windows2">
 
+              <em> Border Auto-parts </em>
+    </div>
 
-        <h2 class ="headerauto"> "We keep our clients satisfied with our technician work at Border-Auto Parts." </h2>
-
-
-        <img class = "auto-image" src="images/autoparts.jpg" alt="window">
-    <img class = "auto-image" src="images/autoparts2.jpg" alt="windows2">
-
-
-        <em> Border Auto-parts </em>
-
-
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
 
   </section>
 
 
   <!-- Press -->
 
+<!--
   <section id="press">
     <img src="images/techcrunch.png" alt="tc-logo">
     <img src="images/tnw.png" alt="tnw-logo">
@@ -193,38 +208,102 @@
 
   </section>
 
-
+ -->
   <!-- Pricing -->
 
   <section id="pricing">
 
-    <h2>A Plan for Every Dog's Needs</h2>
-    <p>Simple and affordable price plans for your and your dog.</p>
 
+      <section id="pricing">
 
-    <h3>Chihuahua</h3>
-    <h2>Free</h2>
-    <p>5 Matches Per Day</p>
-    <p>10 Messages Per Day</p>
-    <p>Unlimited App Usage</p>
-    <button type="button">Sign Up</button>
+        <div class="container">
+              <div class="card-deck mb-3 text-center">
+                <div class="card mb-4 box-shadow">
+                  <div class="card-header">
+                    <h4 class="my-0 font-weight-normal">Small business </h4>
+                  </div>
+                  <div class="card-body">
+                    <h1 class="card-title pricing-card-title">$200 <small class="text-muted">/ mo</small></h1>
+                    <ul class="list-unstyled mt-3 mb-4">
+                      <li>  Adequate space for business unit </li>
+                      <li> Create your own business </li>
+                      <li>30ft by 10ft </li>
+                      <li>Highway center access</li>
+                    </ul>
+                    <button type="button" class="btn btn-lg btn-block btn-outline-primary">Available</button>
+                  </div>
+                </div>
+                <div class="card mb-4 box-shadow">
+                  <div class="card-header">
+                    <h4 class="my-0 font-weight-normal"> Rooms for rent </h></h4>
+                  </div>
+                  <div class="card-body">
+                    <h1 class="card-title pricing-card-title">$175 <small class="text-muted">/ mo</small></h1>
+                    <ul class="list-unstyled mt-3 mb-4">
+                      <li>1 bathroom and shower</li>
+                      <li> single or double occupancy </li>
+                      <li> Has Light and water (bill payed separatley)</li>
+                      <li>Access to grocery and vegetable shops </li>
+                    </ul>
+                    <button type="button" class="btn btn-lg btn-block btn-primary">Get started</button>
+                  </div>
+                </div>
+                <div class="card mb-4 box-shadow">
+                  <div class="card-header">
+                    <h4 class="my-0 font-weight-normal"> </h>Complete House </h4>
+                  </div>
+                  <div class="card-body">
+                    <h1 class="card-title pricing-card-title">$500 <small class="text-muted">/ mo</small></h1>
+                    <ul class="list-unstyled mt-3 mb-4">
+                      <li>4 bedrooms</li>
+                      <li>1 Kitchen</li>
+                      <li> Shower and Bathroom </li>
+                      <li> Living Room </li>
+                    </ul>
+                    <button type="button" class="btn btn-lg btn-block btn-primary">Contact us</button>
+                  </div>
+                </div>
+              </div>
 
+              <footer class="pt-4 my-md-5 pt-md-5 border-top">
+                <div class="row">
+                  <div class="col-12 col-md">
+                    <img class="mb-2" src="https://getbootstrap.com/docs/4.0/assets/brand/bootstrap-solid.svg" alt="" width="24" height="24">
+                    <small class="d-block mb-3 text-muted">© 2017-2018</small>
+                  </div>
+                  <div class="col-6 col-md">
+                    <h5>Features</h5>
+                    <ul class="list-unstyled text-small">
+                      <li><a class="text-muted" href="#">Cool stuff</a></li>
+                      <li><a class="text-muted" href="#">Random feature</a></li>
+                      <li><a class="text-muted" href="#">Team feature</a></li>
+                      <li><a class="text-muted" href="#">Stuff for developers</a></li>
+                      <li><a class="text-muted" href="#">Another one</a></li>
+                      <li><a class="text-muted" href="#">Last time</a></li>
+                    </ul>
+                  </div>
+                  <div class="col-6 col-md">
+                    <h5>Resources</h5>
+                    <ul class="list-unstyled text-small">
+                      <li><a class="text-muted" href="#">Resource</a></li>
+                      <li><a class="text-muted" href="#">Resource name</a></li>
+                      <li><a class="text-muted" href="#">Another resource</a></li>
+                      <li><a class="text-muted" href="#">Final resource</a></li>
+                    </ul>
+                  </div>
+                  <div class="col-6 col-md">
+                    <h5>About</h5>
+                    <ul class="list-unstyled text-small">
+                      <li><a class="text-muted" href="#">Team</a></li>
+                      <li><a class="text-muted" href="#">Locations</a></li>
+                      <li><a class="text-muted" href="#">Privacy</a></li>
+                      <li><a class="text-muted" href="#">Terms</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </footer>
+            </div>
 
-    <h3>Labrador</h3>
-    <h2>$49 / mo</h2>
-    <p>Unlimited Matches</p>
-    <p>Unlimited Messages</p>
-    <p>Unlimited App Usage</p>
-    <button type="button">Sign Up</button>
-
-
-    <h3>Mastiff</h3>
-    <h2>$99 / mo</h2>
-    <p>Pirority Listing</p>
-    <p>Unlimited Matches</p>
-    <p>Unlimited Messages</p>
-    <p>Unlimited App Usage</p>
-    <button type="button">Sign Up</button>
 
   </section>
 
